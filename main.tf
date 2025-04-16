@@ -4,7 +4,7 @@ resource "random_id" "bucket_prefix" {
 
 data "google_billing_account" "acct" {
   display_name = "My Billing Account"
-}
+} 
 
 resource "google_project" "my_project" {
   name            = "Gcp-Goat"
