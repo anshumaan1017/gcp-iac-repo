@@ -2,7 +2,7 @@ resource "random_id" "bucket_prefix" {
   byte_length = 8
 }
 
-data "google_billing_account" "acct" {
+data "google_billing_account" "acct" { 
   display_name = "My Billing Account"
 }
 
